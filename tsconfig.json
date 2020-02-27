@@ -1,0 +1,11 @@
+{
+    "files": [
+        "src/main.ts",
+        "src/fitxer1.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5",
+        "lib": ["es2018", "dom"]
+    }
+}

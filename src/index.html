@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <title>API Typescript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cotitzacions:</h1>
+        <div class="cotitzacions">
+            <select id="currencies"></select>
+            <p><b id="bitcoin"></b><span id="value"></span><span id="name"></span></p>
+        </div>
+
+        <h1>Conversió:</h1>
+        <div class="conversion">
+            <span id="currency_name"></span>
+            <input id="quantity" type="number" value="0">
+            <span>=</span> <span id="conv">0</span> <span>Bitcoins</span>
+        </div>
+
+    </div>
+</body>
+
+</html>
